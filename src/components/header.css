@@ -1,0 +1,15 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: limegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    z-index: 1;
+}
+header h1 {
+    color:black;
+    font-weight: bold;
+}

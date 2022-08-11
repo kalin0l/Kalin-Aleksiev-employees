@@ -1,0 +1,66 @@
+form {
+    z-index: 0;
+    margin: 120px auto;
+    max-width: 360px;
+}
+form label {
+    display: block;
+    margin: 30px auto;
+}
+
+form span {
+    display: block;
+}
+
+form input {
+    padding: 8px 6px;
+    font-size: 1em;
+    color: #777;
+    width: 100%;
+}
+.btn {
+    background: transparent;
+    color: lime;
+    font-weight: bold;
+    border: 2px solid lime;
+    border-radius: 3px;
+    padding: 10px 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.btn:hover {
+    background-color: lime;
+    color: white;
+}
+.emp-container div{
+    margin-left: 10px;
+}
+
+.data-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    position: fixed;
+    left: 35%;
+    border: 1px solid black;
+}
+.data-container .emp-container {
+    display: flex;
+
+}
+.data-container .value-container {
+    display: flex;
+    flex-direction: column;
+}
+.rows {
+    margin-left: 10px;
+}
+.data div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}

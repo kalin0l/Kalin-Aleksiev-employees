@@ -17,12 +17,7 @@ const Main = () => {
     let daysTogether = {};
     if (empl)
       empl.forEach((el1) => {
-        // console.log(el1);
-        /*
-          .slice() is used to exclude the current employee and employees before him
-          from the search which slightly reduces complexity. This is because
-          employee 5 + employee 13 is the same as employee 13 + employee 5
-        */
+       
         empl.slice(empl.indexOf(el1) + 1, empl.length).forEach((el2) => {
           console.log(el1,el2);
           // get start and end date of each of employee
